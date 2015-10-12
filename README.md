@@ -11,8 +11,6 @@ requirements
 
 1. python3
 2. socket (py3 std lib)
-3. queue (py3 std lib)
-4. threading (py3 std lib)
 
 
 usage
