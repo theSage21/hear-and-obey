@@ -2,6 +2,7 @@ import socket
 
 
 debug = False  # Keep false when deploying
+seed_port = 5995
 
 
 def get_socket(seed):
@@ -22,7 +23,7 @@ def get_socket(seed):
     return com, addr
 
 
-def listen(seed=1024):
+def listen(seed=seed_port):
     global instructions, debug
     try:
         while True:
